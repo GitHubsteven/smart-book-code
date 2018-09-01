@@ -1,14 +1,15 @@
 package org.smart4j.chapter2.test;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.smart4j.chapter2.helper.DatabaseHelper;
 import org.smart4j.chapter2.model.Customer;
 import org.smart4j.chapter2.service.CustomerService;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * CustomerService 单元测试

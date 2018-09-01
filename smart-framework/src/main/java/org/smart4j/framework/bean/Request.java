@@ -43,4 +43,5 @@ public class Request {
     public boolean equals(Object obj) {
         return EqualsBuilder.reflectionEquals(this, obj);
     }
+
 }

@@ -1,8 +1,5 @@
 package org.smart4j.plugin.soap;
 
-import java.util.Set;
-import javax.servlet.ServletConfig;
-import javax.servlet.annotation.WebServlet;
 import org.apache.cxf.Bus;
 import org.apache.cxf.BusFactory;
 import org.apache.cxf.transport.servlet.CXFNonSpringServlet;
@@ -10,6 +7,10 @@ import org.smart4j.framework.helper.BeanHelper;
 import org.smart4j.framework.helper.ClassHelper;
 import org.smart4j.framework.util.CollectionUtil;
 import org.smart4j.framework.util.StringUtil;
+
+import javax.servlet.ServletConfig;
+import javax.servlet.annotation.WebServlet;
+import java.util.Set;
 
 /**
  * SOAP Servlet
